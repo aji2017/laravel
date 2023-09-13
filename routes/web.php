@@ -20,3 +20,15 @@ Route::get('/', function () {
 Route::get('/baru', function () {
     return view('dashboard.baru');
 });
+
+Route::get('/login', function () {
+    return view('auth.login');
+});
+
+Route::get('/register', function () {
+    return view('auth.register');
+});
+
+Route::get('/reset', function () {
+    return view('auth.reset');
+});
