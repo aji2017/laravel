@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard.home');
+});
+
+Route::get('/baru', function () {
+    return view('dashboard.baru');
 });
